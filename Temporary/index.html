@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Produk - Nokos Dika</title>
+    
+    <style>
+        /* Kode CSS ada di sini */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* Perubahan di sini: background gradient */
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container untuk menampung semua kartu produk */
+        .products-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1000px;
+        }
+        
+        /* Gaya untuk setiap kartu produk */
+        .product-card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .product-name {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .product-price {
+            font-size: 1.2em;
+            color: #b12704;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .product-description {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .add-to-cart-button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 0.9em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .add-to-cart-button:hover {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="products-container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/400" alt="Gambar produk Nokos Indonesia">
+            </div>
+            <h1 class="product-name">nokos indonesia</h1>
+            <p class="product-price">Rp 7.000</p>
+            <p class="product-description">Nokos adalah nomor kosong yang belum dipakai ke apk dan lainnya.untuk order dan nanya lainnya bisa langsung klik tambahkan ke keranjang</p>
+            
+            <a href="https://wa.me/6289635926932?text=Halo%2C%20saya%20ingin%membeli%20produk%20Nokos%20Indonesia.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih%21" class="add-to-cart-button">Tanya lewat WhatsApp</a>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/400" alt="Gambar produk Nokos Malaysia">
+            </div>
+            <h1 class="product-name">nokos malaysia</h1>
+            <p class="product-price">Rp 25.000</p>
+            <p class="product-description">Nokos adalah nomor kosong yang belum dipakai ke apk dan lainnya.untuk order dan nanya lainnya bisa langsung klik tambahkan ke keranjang</p>
+            
+            <a href="https://wa.me/6289635926932?text=Halo%2C%20saya%20ingin%20membeli%20produk%20Nokos%20Malaysia.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih%21" class="add-to-cart-button">Tanya lewat WhatsApp</a>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/400" alt="Gambar produk Nokos Malaysia">
+            </div>
+            <h1 class="product-name">Nokos China</h1>
+            <p class="product-price">Rp 25.000</p>
+            <p class="product-description">Nokos adalah nomor kosong yang belum dipakai ke apk dan lainnya.untuk order dan nanya lainnya bisa langsung klik tambahkan ke keranjang</p>
+            
+            <a href="https://wa.me/6289635926932?text=Halo%2C%20saya%20ingin%20membeli%20produk%20Nokos%20China.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih%21" class="add-to-cart-button">Tanya lewat WhatsApp</a>
+        </div>
+       <div class="product-card">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/400" alt="Gambar produk Nokos Malaysia">
+            </div>
+            <h1 class="product-name">Nokos Rusia</h1>
+            <p class="product-price">Rp 21.000</p>
+            <p class="product-description">Nokos adalah nomor kosong yang belum dipakai ke apk dan lainnya.untuk order dan nanya lainnya bisa langsung klik tambahkan ke keranjang</p>
+            
+            <a href="https://wa.me/6289635926932?text=Halo%2C%20saya%20ingin%20membeli%20produk%20Nokos%20Rusia.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih%21" class="add-to-cart-button">Tanya lewat WhatsApp</a>
+        </div>
+    </div>
+
+</body>
+</html>
